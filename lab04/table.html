@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>myBookList</title>
+    <link rel="stylesheet" type="text/css" href="table.css"/>
+    <script type="text/javascript" src="table.js"></script>
+</head>
+<body onload="initial()">
+<div class="tbl-header">
+    <table cellpadding="0" cellspacing="0" border="0">
+        <thead>
+        <tr>
+            <th>Bookname</th>
+            <th>Author</th>
+            <th>Price</th>
+            <th>Date of Purchase</th>
+            <th>Type of book</th>
+            <th>Delete Status</th>
+        </tr>
+        </thead>
+    </table>
+</div>
+<div class="tbl-content">
+    <table cellpadding="0" cellspacing="0" border="0">
+        <tbody id="tbody" style="display:none">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <input id="but" type="button" value="Delete" onclick="removeRow(this)"/></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<br><br><br>
+<div>
+    <div class="form" name="form">
+        <input type="text" placeholder="Bookname" id="bookname"/><br>
+        <input type="text" placeholder="Author" id="author"/><br>
+        <input type="text" placeholder="Price" id="price"/><br> <br>
+        <select id="year" onChange="setMonth()"></select>&nbsp;&nbsp;
+        <select id="month" onChange="setDay()"></select>&nbsp;&nbsp;
+        <select id="day"></select> &nbsp;
+        <br>
+        <br>
+        <div class="radio">
+            <input id="radio-1" name="radio" type="radio" value="Humanity" checked>
+            <label for="radio-1" class="radio-label" value="Humanity">Humanity</label>
+            <input id="radio-2" name="radio" type="radio" value="Technology">
+            <label for="radio-2" class="radio-label" value="Technology">Technology</label>
+        </div>
+        <br>
+        <input id="button" type="button" value="Add Book" onclick="onClickAddBook()">
+        <br>
+    </div>
+</div>
+</body>
+</html>

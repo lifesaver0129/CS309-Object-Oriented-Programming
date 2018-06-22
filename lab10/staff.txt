@@ -1,0 +1,8 @@
+Angelia Female 8000
+Basil Male 9000
+Beck Male 10100
+Bob Male 10000
+Drew Male 9800
+Hale Male 12000
+Mary Female 10020
+Sarah Female 9700
