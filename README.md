@@ -9,8 +9,8 @@ Personal repo of SUSTech course CS309 OOP
 * Lab03: Android
 * Lab04: Html, css, js
 * Lab05: Observer Design Pattern
-* Lab06: J2EE mvc
-* Lab07: J2EE mvc
+* Lab06: J2EE mvc (See MVCProject folder)
+* Lab07: J2EE mvc (See MVCProject folder)
 * Lab08: Factory Design Pattern
 * Lab09: Abstract Factory and Singleton Design Pattern
 * Lab10: Adapter Design Pattern
